@@ -15,7 +15,7 @@ enum Strategy {
 }
 
 const Login = () =>{
-    //useWarmUpBrowser();
+    useWarmUpBrowser();
 
     const router = useRouter();
   const { startOAuthFlow: googleAuth } = useOAuth({ strategy: 'oauth_google' });
